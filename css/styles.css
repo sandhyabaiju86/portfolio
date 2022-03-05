@@ -1,0 +1,201 @@
+/* *******************************font Family************************* */
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins&family=Sacramento&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  background-color: #040303;
+  font-family: "Poppins", sans-serif;
+  color: #eaf6f6;
+  text-align: center;
+}
+.header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.header .navbar ol{
+  display: flex;
+  color: #46cd41;
+  font-size: 1.1rem;
+  
+  
+}
+.nav-items a{
+  display: flex;
+  justify-content: space-evenly;
+  margin-right: 50px;
+  padding:0 30px 0 30px;
+  /* margin-left: 20px; */
+  text-indent: -25px !important;
+  text-decoration: none;
+  color:#46cd41 ;
+  font-size: 1.1rem;
+}
+ .logo img{
+ width: 130px;
+    height: auto;
+}
+
+.container {
+  height: 400px;
+  margin: 0px auto;
+}
+.dp {
+  width: 230px;
+  height: 230px;
+  position: absolute;
+  left: 300px;
+  top: 150px;
+}
+h1 {
+  font-family: "Sacramento", cursive;
+}
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: normal;
+}
+h3 {
+  margin-bottom: 30px;
+}
+hr {
+  height: 0px;
+  border-width: 5px;
+  width: 45%;
+  margin: 0px auto;
+  margin-bottom: 30px;
+  border: none;
+  border-top-style:dotted ;
+  border-color: #4EF037;
+}
+
+.description h1 {
+  color: #eaf6f6;
+  font-size: 3.625rem;
+  position: absolute;
+  left: 600px;
+  top: 180px;
+  text-align: left;
+}
+.description span {
+  font-size: 2rem;
+}
+.description h3 {
+  color: #46cd41;
+  position: absolute;
+  font-size: 0.9rem;
+  left: 650px;
+  top: 270px;
+  text-align: left;
+}
+.description p {
+  color: #acb992;
+  font-size: 0.8rem;
+  position: absolute;
+  left: 650px;
+  top: 330px;
+  text-align: left;
+}
+.btn1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.8rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 10px;
+  background-color: #46cd41;
+  border: none;
+  border-radius: 50px;
+  width: 130px;
+  height: 40px;
+  position: absolute;
+  left: 650px;
+  top: 380px;
+  text-align: center;
+}
+.service {
+  text-align: center;
+  height: 700px;
+  margin: 0px auto;
+}
+.service-row {
+  width: 50%;
+  margin: 80px auto;
+  text-align: left;
+  line-height: 2;
+}
+.ser-imgs {
+  width: 15%;
+  float: left;
+  margin-right: 30px;
+}
+.fl-r {
+  float: right;
+}
+/* .careers {
+  width: 50%;
+  height: 200px;
+  margin: 0px auto;
+  line-height: 2;
+ 
+}
+.careers p{
+  text-align: left;
+  padding-left: 30px;
+} */
+.btn {
+  margin-top: 20px;
+  background-color: #46cd41;
+  border: #fff;
+  border-radius: 50px;
+  width: 250px;
+  height: 50px;
+  font-size: 1rem;
+}
+.btn1 a ,.btn a {
+  text-decoration: none;
+  color: #000;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+}
+.skills {
+  width: 50%;
+    height: 240px;
+    margin: 0px auto;
+    margin-top: 50px;
+}
+
+ .skills ul {
+  display: inline-block;
+  vertical-align: top;
+  padding-left: 20px;
+  margin-left: 50px;
+ 
+}
+.skills li {
+  list-style: none;
+  list-style-type: disc;
+  list-style-position: outside;
+  padding: 10px 0 10px 0;
+  
+ 
+}
+.contact-me{
+ height: 300px;
+  margin: 0px auto;
+  line-height: 2;
+}
+.bottom-container{
+  height:100px ;
+}
+.bottom-container .footer-link {
+ margin-right: 30px;
+  padding:0 30px 0 30px;
+  text-decoration: none;
+  color:#46cd41 ;
+  font-size: 1.1rem;
+  line-height: 3;
+}
