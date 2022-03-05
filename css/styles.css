@@ -163,8 +163,9 @@ hr {
 }
 .skills {
   width: 50%;
-  height:500px;
+  height: 300px;
   margin: 0px auto;
+  margin-top: 50px;
 }
 
  .skills ul {
